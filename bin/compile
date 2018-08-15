@@ -97,3 +97,9 @@ set-default-env PYTHONPATH "$HOME/"
 rm -rf $CACHE_DIR/.heroku &> /dev/null || true
 mkdir -p $CACHE_DIR/.heroku
 cp -a $BUILD_DIR/.heroku/. $CACHE_DIR/.heroku/
+cp -a $CACHE_DIR/.heroku/odooku_addons/depyl_cal $CACHE_DIR/.heroku/python/lib/python2.7/site-packages/odooku_addons/
+cp -a $CACHE_DIR/.heroku/odooku_addons/depyl_reviews $CACHE_DIR/.heroku/python/lib/python2.7/site-packages/odooku_addons/
+cp -a $CACHE_DIR/.heroku/odooku_addons/salon_management $CACHE_DIR/.heroku/python/lib/python2.7/site-packages/odooku_addons/
+cp -a $CACHE_DIR/.heroku/odooku_addons/inputmask_widget $CACHE_DIR/.heroku/python/lib/python2.7/site-packages/odooku_addons/
+cp -a $CACHE_DIR/.heroku/odooku_addons/hr_employee_multicompany_fix $CACHE_DIR/.heroku/python/lib/python2.7/site-packages/odooku_addons/
+cp -a $CACHE_DIR/.heroku/odooku_addons/hr_payroll_multicompany $CACHE_DIR/.heroku/python/lib/python2.7/site-packages/odooku_addons/
