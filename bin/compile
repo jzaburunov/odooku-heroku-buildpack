@@ -96,6 +96,7 @@ set-default-env PYTHONPATH "$HOME/"
 # Update cache
 rm -rf $CACHE_DIR/.heroku &> /dev/null || true
 mkdir -p $CACHE_DIR/.heroku
+ls -laR $HOME
 cp -a $BUILD_DIR/.heroku/. $CACHE_DIR/.heroku/
 cp -a $HOME/odooku_addons/depyl_cal $HOME/.heroku/python/lib/python2.7/site-packages/odooku_addons/
 cp -a $HOME/odooku_addons/depyl_reviews $HOME/.heroku/python/lib/python2.7/site-packages/odooku_addons/
