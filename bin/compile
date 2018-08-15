@@ -98,6 +98,7 @@ rm -rf $CACHE_DIR/.heroku &> /dev/null || true
 mkdir -p $CACHE_DIR/.heroku
 # ls -laR $HOME
 cp -a $BUILD_DIR/.heroku/. $CACHE_DIR/.heroku/
+mkdir -p $HOME/.heroku/python/lib/python2.7/site-packages/odooku_addons/
 cp -a $BUILD_DIR/odooku_addons/depyl_cal $HOME/.heroku/python/lib/python2.7/site-packages/odooku_addons/
 cp -a $BUILD_DIR/odooku_addons/depyl_reviews $HOME/.heroku/python/lib/python2.7/site-packages/odooku_addons/
 cp -a $BUILD_DIR/odooku_addons/salon_management $HOME/.heroku/python/lib/python2.7/site-packages/odooku_addons/
